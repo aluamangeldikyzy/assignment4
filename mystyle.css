@@ -1,0 +1,181 @@
+/*FONTS******/
+@font-face {
+  font-family: BalooTammudu;
+  src: url(Baloo_Tammudu_2/BalooTammudu2-SemiBold.ttf);
+}
+@font-face {
+  font-family: Manrope;
+  src: url(Manrope/static/Manrope-Light.ttf);
+}
+@font-face {
+  font-family: Manrope1;
+  src: url(Manrope/static/Manrope-Medium.ttf);
+}
+/******/
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #F5EACE;
+background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+  #slider {
+    overflow: hidden;
+  }
+  #slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 15s slider infinite;
+  }
+  #slider figure img {
+    width:20%;
+    float: left;
+  }
+  @keyframes slider {
+    0% {
+      left: 0;
+    }
+    20% {
+      left: 0;
+    }
+    25% {
+      left: -100%;
+    }
+    45% {
+      left: -100%;
+    }
+    50% {
+      left: -200%;
+    }
+    70% {
+      left: -200%;
+    }
+    75% {
+      left: -300%;
+    }
+    95% {
+      left: -300%;
+    }
+    100% {
+      left: -400%;
+    }
+  }
+h1{
+  font-family: BalooTammudu;
+  text-align: center;
+}
+#container {
+  position: relative;
+  top: 100px;
+  width: 600px;
+}
+#hero-image {
+  display: flex;
+  justify-content: center;
+}
+#content-box1 {
+  box-shadow: 6px 6px 6px 3px rgba(0, 0, 0, 0.5);
+  font-family: Manrope;
+  padding: 30px;
+  margin-bottom: 50px;
+  background: url("3.jpg");
+}
+#content-box2 {
+  box-shadow: 6px 6px 6px 3px rgba(0, 0, 0, 0.5);
+  font-family: Manrope;
+  padding: 30px;
+  margin-bottom: 50px;
+  background: url("6.jpg");
+}
+#content-box3 {
+  box-shadow: 6px 6px 6px 3px rgba(0, 0, 0, 0.5);
+  font-family: Manrope;
+  padding: 30px;
+  margin-bottom: 50px;
+  background: url("9.jpg");
+}
+#content-box4 {
+  box-shadow: 6px 6px 6px 3px rgba(0, 0, 0, 0.5);
+  font-family: Manrope;
+  padding: 30px;
+  margin-bottom: 50px;
+  background: url("8.jpg");
+}
+
+#content-box5 {
+  box-shadow: 6px 6px 6px 3px rgba(0, 0, 0, 0.5);
+  font-family: Manrope;
+  padding: 30px;
+  margin-bottom: 50px;
+  background: url("7.jpg");
+}
+
+ul {
+  font-family: BalooTammudu;
+  position: relative;
+  list-style-type:  none;
+  padding:10px;
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 30px;
+}
+a:hover {
+  background-color: #C4E8AD;
+}
+p1 {
+  font-family: Manrope1;
+  display: none;
+  background-color: #C4E8AD;
+  padding: 10px;
+  margin: 20px;
+}
+#content-box1:hover p1 {
+  display: block;
+}
+p2 {
+  font-family: Manrope1;
+  display: none;
+  background-color: #C4E8AD;
+  padding: 10px;
+  margin: 20px;
+}
+#content-box2:hover p2 {
+  display: block;
+}
+p3 {
+  font-family: Manrope1;
+  display: none;
+  background-color: #C4E8AD;
+  padding: 10px;
+  margin: 20px;
+}
+
+#content-box3:hover p3 {
+  display: block;
+}
+p4 {
+  font-family: Manrope1;
+  display: none;
+  background-color: #C4E8AD;
+  padding: 10px;
+}
+
+#content-box4:hover p4 {
+  display: block;
+}
+p5 {
+  font-family: Manrope1;
+  display: none;
+  background-color: #C4E8AD;
+  padding: 10px;
+  margin: 20px;
+}
+
+#content-box5:hover p5 {
+  display: block;
+}
